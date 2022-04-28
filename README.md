@@ -1,8 +1,11 @@
 # Advanced Sample Hardhat Project
 
 ```
-0xBfeC1F5B7130f0756ED8B4c64b7bae1660342c9C
+BlueChip Token OLD = 0xBfeC1F5B7130f0756ED8B4c64b7bae1660342c9C
+BlueChip Token NEW With Burnable = 0x2eb5E1927889d8530a5D28d00B4460363666fD78
+BlueChip Coin With Burnable = 0x5A68F26b85D41B17FA31f461eDc8bb2766dc5B3B
 ```
+
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
 
 The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
@@ -27,7 +30,6 @@ npx prettier '**/*.{json,sol,md}' --write
 npx solhint 'contracts/**/*.sol'
 npx solhint 'contracts/**/*.sol' --fix
 ```
-
 
 # Etherscan verification
 
